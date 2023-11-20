@@ -1,0 +1,1 @@
+insert into city(city, country_id) values ('Hadiach ', (select country_id from country where country='Ukraine')) returning *;
