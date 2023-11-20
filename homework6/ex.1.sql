@@ -1,0 +1,1 @@
+select * from (select * from film) as popa;
